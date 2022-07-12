@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>HOGWARTS</title>
+		<link rel="stylesheet" type="text/css"
+		media="all" href="style7.css">
+</head>
+<body>
+		<div id="layout">
+			<div id="header">
+			<img src="hdr.jpg" class="header">
+			</div>
+			<div id="menu">
+				<ul>
+					<li><a href="index7.html">Home</a></li>
+					<li><a href="profil.html">About Me</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<div id="runningtext">
+			<marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+					Welcome to My Website
+			</marquee>
+			</div>
+			<div id="contact">
+                <div class="contact">
+                <h2>CONTACT US</h2><br>
+                    <form method="POST" action="submitform.php">
+                    <table class="contactable">
+                    <tr>
+                        <td class="column1"> Full Name : </td>
+                        <td class="column2"> <input type="text" name="txtName" size="50"> </td>
+                    </tr>
+                    <tr>
+                        <td> E-Mail : </td>
+                        <td> <input type="text" name="txtEmail" size="50"> </td>
+                    </tr>
+                    <tr>
+                        <td> Phone Number : </td>
+                        <td> <input type="text" name="txtNumber" size="50"> </td>
+                    </tr>
+                    <tr>
+                        <td> Address : </td>
+                        <td> <input type="text" name="txtAddress" size="50"> </td>
+                    </tr>
+                    <tr>
+                        <td> Message : </td>
+                        <td> <textarea type="text" name="txtMsg" cols="80" rows="10"></textarea> </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td><input type="submit" name="submitbtn">    
+                            <input type="reset" name="resetbtn"></td>
+                    </tr>
+                    </table>
+                    </form>
+                </div>
+            </div>
+			<div id="footer"> &copy 2020, by Ninis </div>
+		</div>
+</body>
+</html>
